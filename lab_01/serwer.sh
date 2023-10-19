@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 while true
 do
   if [ -s dane.txt ]
