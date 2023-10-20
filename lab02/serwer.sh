@@ -1,7 +1,7 @@
 #!/bin/bash
 while true
 do
-  if [ -e lockfile ]
+  if [ -e lockfile ] #czy plik istnieje 
   then
     licznik=0
     file=""

@@ -2,13 +2,15 @@
 
 while true
 do
-        read number;
-        if [ -s wynik.txt ]
+        
+        if [ -s wynik.txt ] #czy plik nie jest pusty 
         then
-                echo -n > wynik.txt;
+                cat wynik.txt;
                 
-                echo $number > dane.txt;
+                echo -n > wynik.txt;
         else
+                read number;
                 echo $number > dane.txt;
         fi;
+        sleep 1
 done
