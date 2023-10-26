@@ -43,6 +43,5 @@ echo -e "$my_variable" >> buforSerwera.txt
 echo "Wysłane do serwera"
 
 
-    
 
 
