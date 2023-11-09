@@ -1,0 +1,6 @@
+Dostałem kieszonkowe na szkolny obiad
+A kupiłem sobie szlugi znaczy to nie ja 
+\input{b.txt}
+Wiem że nie chcecie zwrotów ode mnie
+Ale jak będziecie w gorszym momencie
+To wiedzcie że

@@ -1,0 +1,6 @@
+Przecież miałem wtedy mniej niż osiemnaście lat
+\input{c.txt}
+Bardzo dobrze pamiętam jej cytrynowy smak
+Wtedy za pięć złotych mogłem kupisz sobie cały świat
+\input{e.txt}
+Przez ze mnie nie oddali kaucji wam
