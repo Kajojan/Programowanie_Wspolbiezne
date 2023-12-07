@@ -1,16 +1,16 @@
 import os
 
-FIFO_SERVER = '../kolejka_serwera'
-FIFO_CLIENT = 'kolejka_klienta'
+FIFO_SERVER = "../kolejka_serwera"
+FIFO_CLIENT = "kolejka_klienta"
 
 # Utworzenie kolejki klienta
 try:
     os.mkfifo(FIFO_CLIENT)
-except OSError as oe: 
+except OSError as oe:
     if oe.errno != 17:
         raise
 
-query = '2,' + 'klient2/' + FIFO_CLIENT + '\n'
+query = "2," + "klient2/" + FIFO_CLIENT + "\n"
 
 try:
     fifo_out = os.open(FIFO_SERVER, os.O_WRONLY)

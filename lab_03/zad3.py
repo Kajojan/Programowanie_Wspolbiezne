@@ -1,20 +1,21 @@
 import os
 import sys
 
-word = 'na'
-first_file = 'a.txt'
+word = "na"
+first_file = "a.txt"
+
 
 def number_of_words(filepath, word):
     print("PID:", os.getpid(), filepath)
     word_count = 0
 
-    f = open(filepath, 'r')
+    f = open(filepath, "r")
     lines = f.readlines()
     f.close()
 
     for line in lines:
-        if line.startswith('\\input'):
-            new_path = line.removeprefix('\\input{').removesuffix('}\n')
+        if line.startswith("\\input"):
+            new_path = line.removeprefix("\\input{").removesuffix("}\n")
             pid = os.fork()
             if pid > 0:
                 continue

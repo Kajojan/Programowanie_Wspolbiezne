@@ -1,6 +1,6 @@
 import os
 
-FIFO_CLIENT = './klient1/kolejka_klienta'
+FIFO_CLIENT = "./klient1/kolejka_klienta"
 
 # Usunięcie kolejki klienta
 try:
